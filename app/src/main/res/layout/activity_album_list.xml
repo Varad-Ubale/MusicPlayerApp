@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music Player App By\nVarad Ubale"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textColor="#FF4081"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2" />
+
+    <GridView
+        android:id="@+id/albumGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="2"
+        android:verticalSpacing="12dp"
+        android:horizontalSpacing="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© Made By Varad Ubale"
+        android:textSize="12sp"
+        android:textColor="#DDDDDD"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
